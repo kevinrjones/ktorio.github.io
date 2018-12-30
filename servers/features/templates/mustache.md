@@ -9,7 +9,7 @@ feature:
 redirect_from:
 - /features/mustache.html
 - /features/templates/mustache.html
-ktor_version_review: 1.0.0
+ktor_version_review: 1.1.1
 ---
 
 Ktor includes support for [Mustache](https://github.com/spullara/mustache.java) templates through the Mustache
