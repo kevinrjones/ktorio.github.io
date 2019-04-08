@@ -29,11 +29,9 @@ This provider sends an `Authorization: Basic` with the specified credentials:
 
 ```kotlin
 val client = HttpClient() {
-    install(Auth) {
-        basic {
-            username = "username"
-            password = "password"
-        }
+    install(BasicAuth) {
+        username = "username"
+        password = "password"
     }
 }
 ```
